@@ -477,15 +477,17 @@ h5 {
 }
 
 .header {
-    text-align: center;
-    padding: 50px;
+    text-align: left; /* Căn chữ sang trái */
+    padding-left: 20px; /* Khoảng cách từ mép trái */
+    color: white; /
 }
 .header h1 {
-    margin: 0;
-    font-size: 48px;
+    font-size: 48px; /* Kích thước chữ */
+    margin-bottom: 10px; 
 }
 .header p {
     font-size: 18px;
+    margin-bottom: 20px;
 }
 .btn {
     display: inline-block;
