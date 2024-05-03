@@ -479,7 +479,11 @@ h5 {
 .header {
     text-align: left; /* Căn chữ sang trái */
     padding-left: 20px; /* Khoảng cách từ mép trái */
-    color: white; /
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 .header h1 {
     font-size: 48px; /* Kích thước chữ */
