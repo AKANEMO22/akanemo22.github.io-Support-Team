@@ -66,6 +66,9 @@
 
 .launch-time{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .launch-time div{
