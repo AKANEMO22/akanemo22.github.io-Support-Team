@@ -47,3 +47,12 @@
     font-weight: 600;
     color: #fff;
 }
+
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+}
+    
