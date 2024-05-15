@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: -1;
 }
 
 .background-image::after {
@@ -38,6 +39,10 @@
 .content {
     position: absolute;
     color: #fff;
+    z-index: 1; /* Đảm bảo rằng nội dung nằm trên lớp mờ */
+    top: 50%; /* Điều chỉnh vị trí theo chiều dọc */
+    left: 50%; /* Điều chỉnh vị trí theo chiều ngang */
+    transform: translate(-50%, -50%); /* Căn giữa nội dung *
 }
 
 .content h1{
