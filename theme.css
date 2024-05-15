@@ -36,8 +36,8 @@
 }
 
 .content {
-    position: static;
-    transform: none;
+    position: absolute;
+    color: #fff;
 }
 
 .content h1{
