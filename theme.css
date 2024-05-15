@@ -36,7 +36,9 @@
 }
 
 .content {
+    top: 50%;
     position: absolute;
+    transform: translateY(-50%);
     color: #fff;
 }
 
